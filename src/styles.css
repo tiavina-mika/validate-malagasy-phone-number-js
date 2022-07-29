@@ -1,0 +1,19 @@
+li {
+  list-style: none;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+footer {
+  padding: 30px;
+  background-color: #000;
+}
+footer a {
+  color: #fff;
+}
