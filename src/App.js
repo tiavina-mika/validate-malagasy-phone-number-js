@@ -3,11 +3,7 @@ import "./styles.css";
 const validatePhoneNumber = (str) => {
   const phoneRegex = /^0?(32|33|34|38)[- ]?(\d{2})[- ]?(\d{3})[- ]?(\d{2})$/;
 
-  if (str.match(phoneRegex)) {
-    return true;
-  }
-
-  return false;
+  return str.match(phoneRegex);
 };
 
 const number = "321865749";
